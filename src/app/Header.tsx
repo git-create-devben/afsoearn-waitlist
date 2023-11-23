@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <>
       <section>
-        <div className="grid lg:grid-cols-2 items-center">
+        <div className="grid lg:grid-cols-2 ">
           <div className="relative">
             <div className="grid grid-cols-2 space-x-80 ml-10 ">
               <Image src={Frame} alt="frame" width={150} height={50} />
@@ -28,7 +28,7 @@ const Header = () => {
               />
             </div>
             <div className="space-y-2 absolute mt-[-14rem] ml-16">
-              <h1 className="lg:text-7xl text-bold text-4xl">
+              <h1 className="lg:text-[5.4rem] leading-tight text-bold text-4xl">
                 WELCOME YOUR <br />
                 <span className="text-pcolor">HIGHNESS</span>
               </h1>
