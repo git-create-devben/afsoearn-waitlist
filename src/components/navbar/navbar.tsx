@@ -4,7 +4,20 @@ import React from 'react'
 
 const navbar = () => {
   return (
-    <div>navbar</div>
+    <div>
+        
+        <nav>
+            <div>
+                
+
+            </div>
+            <ul>
+             <li><small>.</small>About Us</li>
+             <li><small>.</small>Mission</li>
+            </ul>
+        </nav>
+
+    </div>
   )
 }
 
