@@ -46,7 +46,7 @@ const Header = () => {
             <div></div>
           </div>
         </div>
-        <section>
+        <section className="mt-10">
           <Hero />
         </section>
       </section>
