@@ -7,15 +7,9 @@ const navbar = () => {
         <div className="flex gap-2 lg:justify-between lg:gap-60">
           <Logo />
 
-          <p className="text-md uppercase text-pcolor lg:md ">
+          <p className="text-md uppercase sm:hidden xs:hidden lg:block text-pcolor lg:md ">
             create<small className="text-white">...</small>inspire<small className="text-white">...</small>earn
           </p>
-
-          {/* <p className="text-md lg:md sm:hidden ">
-
-            create<small>...</small>inspire<small>...</small>earn
-
-          </p> */}
         </div>
 
         <ul className="flex gap-2 text-sm lg:text-lg lg:justify-between lg:gap-20 lg:mr-20">

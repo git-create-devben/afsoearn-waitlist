@@ -15,7 +15,10 @@ const config: Config = {
       },
       colors: {
         'pcolor':'#FAB400',
-      }
+      },
+      screens: {
+        'xs': '360px',
+      },
     },
  
   },
