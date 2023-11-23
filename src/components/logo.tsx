@@ -1,7 +1,7 @@
 export default function Logo() {
   return (
     <div className="text-sm lg:text-lg">
-      AFSOEARN...<small>....</small>
+      AFSOEARN...<small className="text-pcolor text-md">....</small>
     </div>
   );
 };

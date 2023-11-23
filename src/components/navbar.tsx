@@ -7,8 +7,8 @@ const navbar = () => {
         <div className="flex gap-2 lg:justify-between lg:gap-60">
           <Logo />
 
-          <p className="text-md hidden lg:md ">
-            create<small>...</small>inspire<small>...</small>earn
+          <p className="text-md uppercase text-pcolor lg:md ">
+            create<small className="text-white">...</small>inspire<small className="text-white">...</small>earn
           </p>
 
           {/* <p className="text-md lg:md sm:hidden ">
