@@ -1,8 +1,4 @@
-import React from "react";
-
 import Logo from "@/components/logo";
-
-// type Props = {}
 
 const navbar = () => {
   return (
