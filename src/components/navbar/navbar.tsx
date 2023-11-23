@@ -5,7 +5,7 @@ import Logo from "@/components/logo";
 
 const navbar = () => {
   return (
-    <div>
+    <div className="p-6">
       <nav>
         <div>
           <Logo />
