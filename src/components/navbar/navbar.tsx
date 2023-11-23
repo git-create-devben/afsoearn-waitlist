@@ -10,7 +10,7 @@ const navbar = () => {
         <div>
           <Logo />
           <p>
-            create <small>...</small> inspire <small>...</small> earn
+            create<small>...</small>inspire<small>...</small>earn
           </p>
         </div>
         <ul>
