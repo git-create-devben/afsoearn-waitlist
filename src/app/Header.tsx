@@ -18,7 +18,7 @@ const Header = () => {
         <p>we have been waiting for you</p>
       </div>
      </div>
-     <div>
+     <div className="lg:ml-10">
      <Image src={Screen} alt="frame" width={100} height={100} className="w-[29%] "/>
      </div>
      </div>
