@@ -1,8 +1,8 @@
-
+import Header from "./Header"
 export default function Home() {
   return (
-    <main className="p-6">
-      Home
+    <main className="pl-8 pt-2">
+      <Header/>
     </main>
   )
 }
