@@ -4,8 +4,8 @@ import { Poppins } from "next/font/google";
 const navbar = () => {
   return (
     <div className="p-12">
-      <nav className="flex justify-between">
-        <div className="flex gap-2 lg:justify-between lg:gap-60">
+      <nav className="flex justify-between items-center">
+        <div className="flex gap-2 lg:justify-between lg:gap-60 items-center ">
           <Logo />
 
           <p className="text-md uppercase sm:hidden xs:hidden lg:block text-pcolor lg:md ">
