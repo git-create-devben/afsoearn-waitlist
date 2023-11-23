@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Love from "../../public/images/ezgif 3.png"
-import Screen from "../../public/images/home screen 10.png"
+import Screen from "../../public/images/screen.png"
 import Circle from "../../public/images/Ellipse 7.png"
 import Frame from "../../public/images/Frame 1000004055.png"
 const Header = () => {
@@ -19,7 +19,7 @@ const Header = () => {
       </div>
      </div>
      <div>
-
+     <Image src={Screen} alt="frame" width={100} height={100} className="w-[29%] "/>
      </div>
      </div>
 
