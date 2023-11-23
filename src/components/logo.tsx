@@ -4,7 +4,7 @@ import React from 'react'
 
  const Logo = () => {
   return (
-    <div>AFSOEARN...<small>....</small></div>
+    <div className='text-sm lg:text-lg'>AFSOEARN...<small>....</small></div>
   )
 }
 
