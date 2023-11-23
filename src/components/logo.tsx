@@ -4,6 +4,6 @@ import React from 'react'
 
 const logo = () => {
   return (
-    <div>logo</div>
+    <div>AFSOEARN... <small>....</small></div>
   )
 }
