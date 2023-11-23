@@ -12,9 +12,9 @@ const navbar = () => {
           <p className="text-md hidden lg:md ">
             create<small>...</small>inspire<small>...</small>earn
           </p>
-          <p className="text-md lg:md sm:hidden ">
+          {/* <p className="text-md lg:md sm:hidden ">
             create<small>...</small>inspire<small>...</small>earn
-          </p>
+          </p> */}
         </div>
         <ul className="flex gap-2 text-sm lg:text-lg lg:justify-between lg:gap-20 lg:mr-20">
           <li>
