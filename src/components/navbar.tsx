@@ -1,8 +1,9 @@
 import Logo from "@/components/logo";
+import { Poppins } from "next/font/google";
 
 const navbar = () => {
   return (
-    <div className="p-6">
+    <div className="p-12">
       <nav className="flex justify-between">
         <div className="flex gap-2 lg:justify-between lg:gap-60">
           <Logo />
@@ -13,12 +14,12 @@ const navbar = () => {
         </div>
 
         <ul className="flex gap-2 text-sm lg:text-lg lg:justify-between lg:gap-20 lg:mr-20">
-          <li>
-            <small>.</small>About Us
+          <li >
+            <small className="text-pcolor">.</small>About Us
           </li>
 
           <li>
-            <small>.</small>Mission
+            <small className="text-pcolor">.</small>Mission
           </li>
         </ul>
       </nav>
