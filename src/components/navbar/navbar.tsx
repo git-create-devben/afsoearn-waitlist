@@ -6,14 +6,14 @@ import Logo from "@/components/logo";
 const navbar = () => {
   return (
     <div className="p-6">
-      <nav className="flex justify-around">
-        <div className="flex">
+      <nav className="flex justify-between">
+        <div className="flex gap-2 lg:justify-between lg:gap-60">
           <Logo />
           <p>
             create<small>...</small>inspire<small>...</small>earn
           </p>
         </div>
-        <ul className="flex">
+        <ul className="flex gap-2 lg:justify-between lg:gap-20 lg:mr-20">
           <li>
             <small>.</small>About Us
           </li>
