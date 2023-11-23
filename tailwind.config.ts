@@ -15,6 +15,7 @@ const config: Config = {
       },
       colors: {
         'pcolor':'#FAB400',
+        'scolor':'rgba(62, 60, 60, 0.53)',
       },
       screens: {
         'xs': '360px',
