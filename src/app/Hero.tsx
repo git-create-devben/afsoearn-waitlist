@@ -13,7 +13,7 @@ export default function Hero() {
           check on you
         </h1>
       </div>
-      <div className="grid lg:grid-cols-2 p-2 place-content-around place-items-center gap-4">
+      <div className="grid lg:grid-cols-2 p-2 place-content-around place-items-center lg:gap-4 gap-20">
         <div className="relative bg-scolor p-4  rounded-full gap-4 place-self-center">
           <p className="relative flex items-center">You have different social media account <span className="absolute -right-12"><Mark/></span></p> 
           <Image src={emoji3} alt="emoji" width={50} height={10} className="absolute"/>
