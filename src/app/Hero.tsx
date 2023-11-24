@@ -1,3 +1,5 @@
+import Mark from "@/components/mark";
+
 export default function Hero() {
   return (
     <main className="p-10 w-full">
@@ -9,7 +11,7 @@ export default function Hero() {
       </div>
       <div className="grid lg:grid-cols-2 p-2 place-content-around place-items-center gap-4">
         <div className="relative bg-scolor p-4  rounded-md gap-4 place-self-center">
-          <p>You have different social media account</p>
+          <p>You have different social media account</p> <span><Mark/></span>
         </div>
         <div className="bg-scolor p-4 w- rounded-md place-self-center">
           <p>You have different social media account</p>
