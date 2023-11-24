@@ -27,8 +27,8 @@ const Header = () => {
                 className="mt-[6rem] ml-20"
               />
             </div>
-            <div className="space-y-2 absolute mt-[-12rem] ml-16">
-              <h1 className="lg:text-[5rem] leading-tight text-bold text-4xl">
+            <div className="space-y-2 absolute mt-[-12rem] ml-32">
+              <h1 className="lg:text-[5.5rem] leading-tight text-bold text-4xl">
                 WELCOME YOUR <br />
                 <span className="text-pcolor">HIGHNESS</span>
               </h1>
