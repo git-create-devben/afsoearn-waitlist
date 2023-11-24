@@ -10,16 +10,16 @@ export default function Hero() {
         </h1>
       </div>
       <div className="grid lg:grid-cols-2 p-2 place-content-around place-items-center gap-4">
-        <div className="relative bg-scolor p-4  rounded-md gap-4 place-self-center">
-          <p>You have different social media account</p> <span><Mark/></span>
+        <div className="relative bg-scolor p-4  rounded-full gap-4 place-self-center">
+          <p className="relative flex items-center">You have different social media account <span className="absolute -right-12"><Mark/></span></p> 
         </div>
-        <div className="bg-scolor p-4 w- rounded-md place-self-center">
-          <p>You have different social media account</p>
+        <div className="bg-scolor p-4 w- rounded-full place-self-center">
+        <p className="relative flex items-center">You have different social media account <span className="absolute -right-12"><Mark/></span></p> 
         </div>
        
       </div>
-      <div className="bg-scolor p-4  mb-20 lg:w-[22.5%] m-auto rounded-md mt-20">
-          <p>You have different social media account</p>
+      <div className="bg-scolor p-4  mb-20 lg:w-[22.5%] m-auto rounded-full mt-20">
+      <p className="relative flex items-center">You have different social media account <span className="absolute -right-12"><Mark/></span></p> 
         </div>
 
       <div className="text-center lg:text-4xl leading-loose mt-10 lg:mt-40 text-2xl">
