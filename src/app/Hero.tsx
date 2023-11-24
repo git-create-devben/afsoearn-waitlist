@@ -1,4 +1,8 @@
 import Mark from "@/components/mark";
+import Image from "next/image";
+import emoji1 from "../../public/images/emoji1.png"
+import emoji2 from "../../public/images/emoji2.png"
+import emoji3 from "../../public/images/emoji3.png"
 
 export default function Hero() {
   return (
@@ -12,6 +16,7 @@ export default function Hero() {
       <div className="grid lg:grid-cols-2 p-2 place-content-around place-items-center gap-4">
         <div className="relative bg-scolor p-4  rounded-full gap-4 place-self-center">
           <p className="relative flex items-center">You have different social media account <span className="absolute -right-12"><Mark/></span></p> 
+          <Image src={emoji1} alt="emoji" width={100} height={100} />
         </div>
         <div className="bg-scolor p-4 w- rounded-full place-self-center">
         <p className="relative flex items-center">You have different social media account <span className="absolute -right-12"><Mark/></span></p> 
