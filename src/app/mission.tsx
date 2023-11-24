@@ -1,3 +1,4 @@
+import Image from "next/image"
 
 export default function Mission(){
     return(
@@ -7,10 +8,10 @@ export default function Mission(){
             </section>
             <section className="flex justify-between">
                 <div>
-
+              Text
                 </div>
                 <div>
-
+            Imagelist
                 </div>
             </section>
           
