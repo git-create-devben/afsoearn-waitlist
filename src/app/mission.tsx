@@ -2,6 +2,10 @@ import Image from "next/image";
 import rectangle1 from "../../public/images/Rectangle (1).png";
 import rectangle2 from "../../public/images/Rectangle (2).png";
 import rectangle3 from "../../public/images/Rectangle.png";
+import merch from "../../public/images/merch.png";
+import merch2 from "../../public/images/merch2.png";
+import coins from "../../public/images/Ellipse 7.png";
+import frame from "../../public/images/Frame 1000004062.png";
 export default function Mission() {
   return (
     <main className="flex flex-col p-2">
@@ -28,18 +32,71 @@ export default function Mission() {
           className="self-center"
         />
       </section>
-      <section className="flex justify-between text-center">
+      <section className="flex justify-between text-center p-10">
         <div>
           <h1 className="text-6xl font-extrabold">How it works</h1>
-          <p className="text-2xl">
-            Afsoen is an advanced social media app for royalties to monetize
-            their content
+          <p className="text-2xl ">
+            Afsoen is an advanced social media app <br />
+            for royalties to monetize their content
           </p>
-          <div className="grid grid-cols-2 gap-2">
-            <div>
-              <span></span>
-              <p></p>
+          <div className="grid grid-cols-2 gap-10">
+            <div className="w-60 flex flex-col justify-center items-center">
+              <Image
+                src={coins}
+                alt="coins"
+                width={100}
+                height={100}
+                className=""
+              />
+              <span className="text-pcolor text-1xl">Crown contributions</span>
+              <p className="text-left">
+                Get unlimited drown contributions of donations from fans who
+                love your contents
+              </p>
             </div>
+            <div className="w-60 flex flex-col justify-center items-center">
+              <Image
+                src={coins}
+                alt="coins"
+                width={100}
+                height={100}
+                className=""
+              />
+              <span className="text-pcolor text-1xl">Crown contributions</span>
+              <p className="text-left">
+                Get unlimited drown contributions of donations from fans who
+                love your contents
+              </p>
+            </div>
+            <div className="w-60 flex flex-col justify-center items-center">
+              <Image
+                src={coins}
+                alt="coins"
+                width={100}
+                height={100}
+                className=""
+              />
+              <span className="text-pcolor text-1xl">Crown contributions</span>
+              <p className="text-left">
+                Get unlimited drown contributions of donations from fans who
+                love your contents
+              </p>
+            </div>
+            <div className="w-60 flex flex-col justify-center items-center">
+              <Image
+                src={coins}
+                alt="coins"
+                width={100}
+                height={100}
+                className=""
+              />
+              <span className="text-pcolor text-1xl">Crown contributions</span>
+              <p className="text-left">
+                Get unlimited drown contributions of donations from fans who
+                love your contents
+              </p>
+            </div>
+
           </div>
         </div>
         <div className="flex gap-2">
