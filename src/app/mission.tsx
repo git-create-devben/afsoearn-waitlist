@@ -1,8 +1,20 @@
+
 export default function Mission(){
     return(
-        <div className="mission">
-            <h1>Mission</h1>
-        </div>
+        <main className="flex flex-col p-10">
+            <section>
+                Image
+            </section>
+            <section className="flex justify-between">
+                <div>
+
+                </div>
+                <div>
+
+                </div>
+            </section>
+          
+        </main>
     )
 
 }
