@@ -10,36 +10,36 @@ const Header = () => {
       <section>
         <div className="grid lg:grid-cols-2 ">
           <div className="relative">
-            <div className="grid grid-cols-2 space-x-[30rem] ml-10 ">
-              <Image src={Frame} alt="frame" width={150} height={50} className="ml-60"/>
+            <div className="grid grid-cols-2 lg:space-x-[30rem]  ">
+              <Image src={Frame} alt="frame" width={150} height={50} className="lg:ml-60"/>
               <Image
                 src={Love}
                 alt="frame"
                 width={150}
                 height={50}
-                className="mt-[-2rem]"
+                className="lg:mt-[-2rem]"
               />
               <Image
                 src={Circle}
                 alt="frame"
                 width={200}
                 height={50}
-                className="mt-[6rem] ml-20"
+                className="mt-[6rem] lg:ml-20 ml-48"
               />
             </div>
-            <div className="space-y-2 absolute mt-[-12rem] ml-32">
-              <h1 className="lg:text-[5.5rem] leading-tight text-bold text-4xl">
+            <div className="space-y-2 absolute lg:mt-[-12rem] lg:ml-32 -mt-60">
+              <h1 className="lg:text-[5.5rem] leading-tight text-bold text-5xl">
                 WELCOME YOUR <br />
                 <span className="text-pcolor">HIGHNESS</span>
               </h1>
               <p>we have been waiting for you</p>
             </div>
           </div>
-          <div className="lg:ml-10 relative">
+          <div className="relative -ml-20">
             <Image
               src={Screen}
               alt="frame"
-              width={1000}
+              width={900}
               height={100}
               className=""
             />
