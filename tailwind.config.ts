@@ -16,6 +16,7 @@ const config: Config = {
       colors: {
         'pcolor':'#FAB400',
         'scolor':'rgba(62, 60, 60, 0.53)',
+        'background': 'linear-gradient(180deg, #827E7E 0%, #363535 51.56%, #2B2A2A 100%)',
       },
       screens: {
         'xs': '360px',
