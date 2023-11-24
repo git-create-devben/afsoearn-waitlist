@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Love from "../../public/images/ezgif 3.png";
-import Screen from "../../public/images/screen.png";
+import Screen from "../../public/images/screen2.png";
 import Circle from "../../public/images/Ellipse 7.png";
 import Frame from "../../public/images/Frame 1000004055.png";
 import Hero from "./Hero";
@@ -35,11 +35,11 @@ const Header = () => {
               <p>we have been waiting for you</p>
             </div>
           </div>
-          <div className="lg:ml-60 relative">
+          <div className="lg:ml-10 relative">
             <Image
               src={Screen}
               alt="frame"
-              width={300}
+              width={1000}
               height={100}
               className=""
             />
