@@ -31,7 +31,7 @@ export default function Mission() {
       <section className="flex justify-between text-center">
         <div>
           <h1 className="text-6xl font-extrabold">How it works</h1>
-          <p>
+          <p className="text-2xl">
             Afsoen is an advanced social media app for royalties to monetize
             their content
           </p>
