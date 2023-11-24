@@ -8,8 +8,8 @@ import coins from "../../public/images/Ellipse 7.png";
 import frame from "../../public/images/Frame 1000004062.png";
 export default function Mission() {
   return (
-    <main className="flex flex-col p-2">
-      <section className="grid lg:grid-cols-3 grid-cols-2 shrink-0 place-content-around px-12 ">
+    <main className="flex flex-col p-2 ">
+      <section className="grid lg:grid-cols-3 grid-cols-2 shrink-0 place-content-around px-12 lg:mt-[2rem]">
         <Image
           src={rectangle2}
           alt="rectangle2"
@@ -29,7 +29,7 @@ export default function Mission() {
           alt="rectangle3"
           width={600}
           height={100}
-          className="self-center"
+          className="self-center lg:absolute lg:right-0 "
         />
       </section>
       <section className="flex justify-between text-center p-10">
@@ -100,9 +100,39 @@ export default function Mission() {
             </div>
           </div>
         </div>
-        <div className="flex gap-2">
-          <div className="flex flex-col gap-2">
-           <div className="bg-background w-60 h-40 flex flex-col item center justify-center">
+        <div className="flex gap-2 lg:-mt-[12rem]">
+          <div className="grid grid-cols-1 gap-2">
+           <div className="bg-scolor rounded-md p-12 flex flex-col item center justify-center">
+           <Image
+                src={merch}
+                alt="coins"
+                width={100}
+                height={100}
+                className=""
+              />
+              <h2 className="text-base font-bold">Premium Videos</h2>
+           </div>
+           <div className="bg-scolor rounded-md p-12 flex flex-col item center justify-center">
+           <Image
+                src={merch}
+                alt="coins"
+                width={100}
+                height={100}
+                className=""
+              />
+              <h2 className="text-base font-bold">Premium Videos</h2>
+           </div>
+           <div className="bg-scolor rounded-md p-12 flex flex-col item center justify-center">
+           <Image
+                src={merch}
+                alt="coins"
+                width={100}
+                height={100}
+                className=""
+              />
+              <h2 className="text-base font-bold">Premium Videos</h2>
+           </div>
+           <div className="bg-scolor rounded-md p-12 flex flex-col item center justify-center">
            <Image
                 src={merch}
                 alt="coins"
@@ -113,8 +143,90 @@ export default function Mission() {
               <h2 className="text-base font-bold">Premium Videos</h2>
            </div>
           </div>
-          <div>second</div>
-          <div>third</div>
+          <div className="flex flex-col gap-2">
+          <div className="bg-pcolor rounded-md p-12 flex flex-col item center justify-center">
+           <Image
+                src={merch}
+                alt="coins"
+                width={100}
+                height={100}
+                className=""
+              />
+              <h2 className="text-base font-bold">Premium Videos</h2>
+           </div>
+           <div className="bg-pcolor rounded-md p-12 flex flex-col item center justify-center">
+           <Image
+                src={merch}
+                alt="coins"
+                width={100}
+                height={100}
+                className=""
+              />
+              <h2 className="text-base font-bold">Premium Videos</h2>
+           </div>
+           <div className="bg-pcolor rounded-md p-12 flex flex-col item center justify-center">
+           <Image
+                src={merch}
+                alt="coins"
+                width={100}
+                height={100}
+                className=""
+              />
+              <h2 className="text-base font-bold">Premium Videos</h2>
+           </div>
+           <div className="bg-pcolor rounded-md p-12 flex flex-col item center justify-center">
+           <Image
+                src={merch}
+                alt="coins"
+                width={100}
+                height={100}
+                className=""
+              />
+              <h2 className="text-base font-bold">Premium Videos</h2>
+           </div>
+          </div>
+          <div className="flex flex-col gap-2">
+          <div className="bg-scolor opacity-8 rounded-md p-12 flex flex-col item center justify-center">
+           <Image
+                src={merch}
+                alt="coins"
+                width={100}
+                height={100}
+                className=""
+              />
+              <h2 className="text-base font-bold">Premium Videos</h2>
+           </div>
+           <div className="bg-scolor rounded-md p-12 flex flex-col item center justify-center">
+           <Image
+                src={merch}
+                alt="coins"
+                width={100}
+                height={100}
+                className=""
+              />
+              <h2 className="text-base font-bold">Premium Videos</h2>
+           </div>
+           <div className="bg-scolor rounded-md p-12 flex flex-col item center justify-center">
+           <Image
+                src={merch}
+                alt="coins"
+                width={100}
+                height={100}
+                className=""
+              />
+              <h2 className="text-base font-bold">Premium Videos</h2>
+           </div>
+           <div className="sg-pcolor rounded-md p-12 flex flex-col item center justify-center">
+           <Image
+                src={merch}
+                alt="coins"
+                width={100}
+                height={100}
+                className=""
+              />
+              <h2 className="text-base font-bold">Premium Videos</h2>
+           </div>
+          </div>
         </div>
       </section>
     </main>
