@@ -101,7 +101,18 @@ export default function Mission() {
           </div>
         </div>
         <div className="flex gap-2">
-          <div>first</div>
+          <div className="flex flex-col gap-2">
+           <div className="bg-background w-60 h-40 flex flex-col item center justify-center">
+           <Image
+                src={merch}
+                alt="coins"
+                width={100}
+                height={100}
+                className=""
+              />
+              <h2 className="text-base font-bold">Premium Videos</h2>
+           </div>
+          </div>
           <div>second</div>
           <div>third</div>
         </div>
