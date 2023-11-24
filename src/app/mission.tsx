@@ -56,7 +56,7 @@ export default function Mission() {
             </div>
             <div className="w-60 flex flex-col justify-center items-center">
               <Image
-                src={coins}
+                src={merch2}
                 alt="coins"
                 width={100}
                 height={100}
@@ -70,7 +70,7 @@ export default function Mission() {
             </div>
             <div className="w-60 flex flex-col justify-center items-center">
               <Image
-                src={coins}
+                src={merch}
                 alt="coins"
                 width={100}
                 height={100}
@@ -84,7 +84,7 @@ export default function Mission() {
             </div>
             <div className="w-60 flex flex-col justify-center items-center">
               <Image
-                src={coins}
+                src={frame}
                 alt="coins"
                 width={100}
                 height={100}
