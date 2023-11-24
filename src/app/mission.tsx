@@ -62,10 +62,10 @@ export default function Mission() {
                 height={100}
                 className=""
               />
-              <span className="text-pcolor text-1xl">Crown contributions</span>
+              <span className="text-pcolor text-1xl">Premium videos</span>
               <p className="text-left">
-                Get unlimited drown contributions of donations from fans who
-                love your contents
+                Create premium contents that fans can pay to watch or watch for
+                free depending on you
               </p>
             </div>
             <div className="w-60 flex flex-col justify-center items-center">
@@ -76,10 +76,10 @@ export default function Mission() {
                 height={100}
                 className=""
               />
-              <span className="text-pcolor text-1xl">Crown contributions</span>
+              <span className="text-pcolor text-1xl">sales of merchandise</span>
               <p className="text-left">
-                Get unlimited drown contributions of donations from fans who
-                love your contents
+                Sale your customized items or limited items to your fans and
+                make a sustainable income
               </p>
             </div>
             <div className="w-60 flex flex-col justify-center items-center">
@@ -90,13 +90,14 @@ export default function Mission() {
                 height={100}
                 className=""
               />
-              <span className="text-pcolor text-1xl">Crown contributions</span>
+              <span className="text-pcolor text-1xl">
+                personal AI assistant
+              </span>
               <p className="text-left">
-                Get unlimited drown contributions of donations from fans who
-                love your contents
+                There is an artificial intelligence tailored to every creators
+                need .it might be in our next app update .
               </p>
             </div>
-
           </div>
         </div>
         <div className="flex gap-2">
