@@ -4,6 +4,7 @@ import Screen from "../../public/images/screen2.png";
 import Circle from "../../public/images/Ellipse 7.png";
 import Frame from "../../public/images/Frame 1000004055.png";
 import Hero from "./Hero";
+import Mission from "./mission";
 const Header = () => {
   return (
     <>
@@ -49,6 +50,9 @@ const Header = () => {
         <section className="mt-10">
           <Hero />
         </section>
+      </section>
+      <section className="mt-8">
+        <Mission/>
       </section>
     </>
   );
