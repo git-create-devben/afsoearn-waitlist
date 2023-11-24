@@ -20,9 +20,9 @@ export default function Hero() {
           <p>You have different social media account</p>
         </div>
 
-      <div className="text-center text-4xl leading-loose mt-10 lg:mt-40">
+      <div className="text-center lg:text-4xl leading-loose mt-10 lg:mt-40 text-2xl">
         <h1>
-       <small className="text-pcolor tex-4xl">LETS seeeee</small>....... <small className="text-pcolor text-4xl">Hmmm....</small>Hmmm...WEELLLL... <br/> YOU NEED AFSOEN!!!
+       <small className="text-pcolor lg:text-4xl">LETS seeeee</small>....... <small className="text-pcolor text-4xl  hidden">Hmmm....</small>Hmmm...WEELLLL... <br/> YOU NEED AFSOEN!!!
         </h1>
       </div>
     </main>
