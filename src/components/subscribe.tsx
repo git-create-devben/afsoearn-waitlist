@@ -43,7 +43,7 @@ const subscribe = () => {
         </div>
         <div className="backdrop-brightness-1 backdrop-opacity-2 bg-opacity-75 backdrop-blur-sm bg-[#cccccc21c]/30 absolute w-[100%] flex  items-center flex-col h-96 -mt-28 gap-8">
           <h1 className="text-white lg:text-5xl text-center text-3xl font-black">Join other creators in our waitlist</h1>
-          <form action="https://formsubmit.co/afsoenteam@gmail.com" method="POST" value="http://localhost:3000/thankyou" name="email" className="input-container mt-6">
+          <form action="https://formsubmit.co/afsoenteam@gmail.com" method="POST" name="email" className="input-container mt-6">
           <input type="text" placeholder="Input Email"/>
   <button className="button text-sm">Subscribe</button>
           </form>
