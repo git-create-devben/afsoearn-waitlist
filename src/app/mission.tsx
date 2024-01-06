@@ -6,6 +6,7 @@ import merch from "../../public/images/merch.png";
 import merch2 from "../../public/images/merch2.png";
 import coins from "../../public/images/Ellipse 7.png";
 import frame from "../../public/images/Frame 1000004062.png";
+import love from "../../public/images/ezgif 3 (1).png"
 export default function Mission() {
   return (
     <main className="flex flex-col p-2 ">
@@ -101,36 +102,36 @@ export default function Mission() {
           </div>
         </div>
         <div className="hidden lg:flex gap-2 lg:-mt-[12rem]">
-          <div className="grid grid-cols-1 gap-2">
+          <div className="grid grid-cols-1 gap-2 place-content-center place-items-center">
            <div className="bg-gradient-to-r from-[#8D8D8D] to-[#2B2A2A] rounded-md p-12 flex flex-col item center justify-center">
            <Image
-                src={merch}
+                src={love}
                 alt="coins"
                 width={100}
                 height={100}
                 className=""
               />
-              <h2 className="text-base font-bold">Premium Videos</h2>
+              <h2 className="text-base font-bold">Unlimited <br/> reactions</h2>
            </div>
            <div className="bg-gradient-to-r from-[#8D8D8D] to-[#2B2A2A] rounded-md p-12 flex flex-col item center justify-center">
            <Image
-                src={merch}
+                src={merch2}
                 alt="coins"
                 width={100}
                 height={100}
                 className=""
               />
-              <h2 className="text-base font-bold">Premium Videos</h2>
+              <h2 className="text-base font-bold">Premium <br/> Videos</h2>
            </div>
            <div className="bg-gradient-to-r from-[#8D8D8D] to-[#2B2A2A] rounded-md p-12 flex flex-col item center justify-center">
            <Image
-                src={merch}
+                src={coins}
                 alt="coins"
                 width={100}
                 height={100}
                 className=""
               />
-              <h2 className="text-base font-bold">Premium Videos</h2>
+              <h2 className="text-base font-bold">Crown <br/> Contributions</h2>
            </div>
            <div className="bg-gradient-to-r from-[#8D8D8D] to-[#383636] rounded-md p-12 flex flex-col item center justify-center">
            <Image
@@ -140,19 +141,19 @@ export default function Mission() {
                 height={100}
                 className=""
               />
-              <h2 className="text-base font-bold">Premium Videos</h2>
+              <h2 className="text-base font-bold">Sales <br/> merchandise</h2>
            </div>
           </div>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 items-center">
           <div className="bg-gradient-to-r from-[#8D8D8D] to-[#2B2A2A] rounded-md p-12 flex flex-col item center justify-center">
            <Image
-                src={merch}
+                src={coins}
                 alt="coins"
                 width={100}
                 height={100}
                 className=""
               />
-              <h2 className="text-base font-bold">Premium Videos</h2>
+              <h2 className="text-base font-bold">Crown <br/> Contributions</h2>
            </div>
            <div className="bg-gradient-to-r from-[#8D8D8D] to-[#2B2A2A] rounded-md p-12 flex flex-col item center justify-center">
            <Image
@@ -162,7 +163,7 @@ export default function Mission() {
                 height={100}
                 className=""
               />
-              <h2 className="text-base font-bold">Premium Videos</h2>
+              <h2 className="text-base font-bold">Sales <br/> merchandise</h2>
            </div>
            <div className=" bg-gradient-to-r from-[#8D8D8D] to-[#383636] rounded-md p-12 flex flex-col item center justify-center">
            <Image
@@ -172,20 +173,20 @@ export default function Mission() {
                 height={100}
                 className=""
               />
-              <h2 className="text-base font-bold">Premium Videos</h2>
+              <h2 className="text-base font-bold">Premium <br/> Videos</h2>
            </div>
            <div className="bg-gradient-to-r from-[#8D8D8D] to-[#383636] rounded-md p-12 flex flex-col item center justify-center">
            <Image
-                src={merch}
+                src={love}
                 alt="coins"
                 width={100}
                 height={100}
                 className=""
               />
-              <h2 className="text-base font-bold">Premium Videos</h2>
+              <h2 className="text-base font-bold">Unlimited <br/> reactions</h2>
            </div>
           </div>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 items-center">
           <div className="bg-gradient-to-r from-[#8D8D8D] to-[#383636] opacity-8 rounded-md p-12 flex flex-col item center justify-center">
            <Image
                 src={merch}
@@ -194,7 +195,27 @@ export default function Mission() {
                 height={100}
                 className=""
               />
-              <h2 className="text-base font-bold">Premium Videos</h2>
+              <h2 className="text-base font-bold">sales <br/> merchandise</h2>
+           </div>
+           <div className="bg-gradient-to-r from-[#8D8D8D] to-[#383636] rounded-md p-12 flex flex-col item center justify-center">
+           <Image
+                src={merch2}
+                alt="coins"
+                width={100}
+                height={100}
+                className=""
+              />
+              <h2 className="text-base font-bold">Premium <br/> Videos</h2>
+           </div>
+           <div className="bg-gradient-to-r from-[#8D8D8D] to-[#383636] rounded-md p-12 flex flex-col item center justify-center">
+           <Image
+                src={coins}
+                alt="coins"
+                width={100}
+                height={100}
+                className=""
+              />
+              <h2 className="text-base font-bold">crown <br/> contributions</h2>
            </div>
            <div className="bg-gradient-to-r from-[#8D8D8D] to-[#383636] rounded-md p-12 flex flex-col item center justify-center">
            <Image
@@ -204,27 +225,7 @@ export default function Mission() {
                 height={100}
                 className=""
               />
-              <h2 className="text-base font-bold">Premium Videos</h2>
-           </div>
-           <div className="bg-gradient-to-r from-[#8D8D8D] to-[#383636] rounded-md p-12 flex flex-col item center justify-center">
-           <Image
-                src={merch}
-                alt="coins"
-                width={100}
-                height={100}
-                className=""
-              />
-              <h2 className="text-base font-bold">Premium Videos</h2>
-           </div>
-           <div className="bg-gradient-to-r from-[#8D8D8D] to-[#383636] rounded-md p-12 flex flex-col item center justify-center">
-           <Image
-                src={merch}
-                alt="coins"
-                width={100}
-                height={100}
-                className=""
-              />
-              <h2 className="text-base font-bold">Premium Videos</h2>
+              <h2 className="text-base font-bold">Premium <br/> Videos</h2>
            </div>
           </div>
         </div>

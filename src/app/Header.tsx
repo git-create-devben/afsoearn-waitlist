@@ -5,6 +5,7 @@ import Circle from "../../public/images/Ellipse 7.png";
 import Frame from "../../public/images/Frame 1000004055.png";
 import Hero from "./Hero";
 import Mission from "./mission";
+import Subscribe from "@/components/subscribe";
 const Header = () => {
   return (
     <>
@@ -53,6 +54,9 @@ const Header = () => {
       </section>
       <section className="mt-8">
         <Mission/>
+      </section>
+      <section>
+        <Subscribe/>
       </section>
     </>
   );
