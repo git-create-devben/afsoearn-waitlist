@@ -30,7 +30,7 @@ const Header = () => {
               />
             </div>
             <div className="space-y-2 absolute lg:mt-[-12rem] lg:ml-32 -mt-60">
-              <h1 className="lg:text-[5.5rem] leading-tight text-bold text-5xl">
+              <h1 className="lg:text-[5.5rem] leading-tight text-bold text-4xl">
                 WELCOME YOUR <br />
                 <span className="text-pcolor">HIGHNESS</span>
               </h1>

@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <main className="p-10 w-full">
       <div className="bg-scolor p-4  mb-20 lg:w-[50%] m-auto rounded-md text-center">
-        <h1 className="text-4xl">
+        <h1 className="lg:text-4xl">
           <span className="text-pcolor">WAIT</span>....lets do a quick reality
           check on you
         </h1>
@@ -31,7 +31,7 @@ export default function Hero() {
 
       <div className="text-center lg:text-4xl leading-loose mt-10 lg:mt-40 text-2xl">
         <h1>
-       <small className="text-pcolor lg:text-4xl">LETS seeeee</small>....... <small className="text-pcolor text-4xl  hidden">Hmmm....</small>Hmmm...WEELLLL... <br/> YOU NEED AFSOEN!!!
+       <small className="text-pcolor lg:text-4xl">LETS seeeee</small>....... <small className="text-pcolor lg:text-4xl text-3xl  hidden">Hmmm....</small>Hmmm...WEELLLL... <br/> YOU NEED AFSOEN!!!
         </h1>
       </div>
     </main>
